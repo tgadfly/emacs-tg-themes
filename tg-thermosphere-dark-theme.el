@@ -1,5 +1,5 @@
 
-;;; tg-nodejs-theme.el --- Emacs theme with a dark background.
+;;; tg-thermosphere-theme.el --- Emacs theme with a dark background.
 
 ;; Copyright (C) 2014 , tg
 
@@ -39,10 +39,7 @@
        (bg2 "#163438")
        (bg3 "#294347")
        (bg4 "#3c5357")
-       ;; (bg1 "#02252A")
-       ;; (bg2 "#313438")
-       ;; (bg3 "#404347")
-       ;; (bg4 "#505357")
+       (hl  "#022328")
        (key2 "#bfdd5c")
        (key3 "#a0bf3e")
        (builtin "#e0e0e0")
@@ -68,10 +65,12 @@
         `(font-lock-string-face ((,class (:foreground ,str))))
         `(font-lock-type-face ((,class (:foreground ,type ))))
         `(font-lock-variable-name-face ((,class (:foreground ,var))))
+        `(line-number ((,class (:foreground ,bg2))))
+        `(line-number-current-line ((,class (:foreground ,fg4))))
         `(font-lock-warning-face ((,class (:foreground ,warning :background ,bg2))))
         `(region ((,class (:background ,bg3 :foreground ,bg1))))
         `(highlight ((,class (:foreground ,fg3 :background ,bg3))))
-	`(hl-line ((,class (:background  ,bg2))))
+	`(hl-line ((,class (:background  ,hl))))
 	`(fringe ((,class (:background ,bg1 :foreground ,fg4))))
 	`(cursor ((,class (:background ,bg3))))
         `(show-paren-match-face ((,class (:background ,warning))))
@@ -256,5 +255,3 @@
 ;; Local Variables:
 ;; no-byte-compile: t
 ;; End:
-
-;;; tg-nodejs-theme.el ends here
