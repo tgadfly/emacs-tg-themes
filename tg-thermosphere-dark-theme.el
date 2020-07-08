@@ -1,5 +1,4 @@
-
-;;; tg-thermosphere-theme.el --- Emacs theme with a dark background.
+;;; tg-thermosphere-dark-theme.el --- Emacs theme with a dark background.
 
 ;; Copyright (C) 2014 , tg
 
@@ -255,3 +254,5 @@
 ;; Local Variables:
 ;; no-byte-compile: t
 ;; End:
+
+;;; tg-thermosphere-dark-theme.el ends here
