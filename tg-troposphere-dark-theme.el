@@ -1,4 +1,3 @@
-
 ;;; tg-troposphere-dark-theme.el --- Emacs theme with a dark background.
 
 ;; Copyright (C) 2014 , tg
@@ -255,3 +254,5 @@
 ;; Local Variables:
 ;; no-byte-compile: t
 ;; End:
+
+;;; tg-troposphere-dark-theme.el ends here
