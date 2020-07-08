@@ -1,5 +1,15 @@
 * List of Themes
-- tg-thermosphere-dark
-[[./tg-thermosphere-dark.png]]
+** tg-thermosphere-dark
+   original theme
+   [[./tg-thermosphere-dark.png]]
+
+** tg-troposphere-dark
+   layers reflecting green forests
+   [[./tg-troposphere-dark.png]]
+
+** tg-exosphere-dark
+   darker layers of the atmosphere
+   [[./tg-exosphere-dark.png]]
+
 * Notes
 [[https://en.cppreference.com/w/cpp/memory/shared_ptr][Source Code]]
